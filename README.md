@@ -1,7 +1,7 @@
 # DMS1Assignment2
 s3998231
-Huon Pisoni
+huon pisoni
 
-Learning code is very satisfying
+i like code
 
-Please enjoy my website 🫡
+lease enjoy my website 🫡
