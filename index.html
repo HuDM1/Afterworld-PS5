@@ -1,0 +1,180 @@
+<html>
+
+    <head>
+        <title>After World - PS5</title>
+        <style>
+            .row{
+                margin-top:40px;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .left-column{
+                float:left;
+                width:30%;
+            
+            }
+            .centre-column{
+                width:30%;
+                margin:auto;
+            }
+            .right-column{
+                float:right;
+                width:30%;
+            
+            }
+            .image-container{
+                display: table-cell;
+                vertical-align: middle;
+                margin:auto;
+            }
+            </style>
+        </head>
+
+    <body style= "background-image: url(img/backgroundimage.png); 
+                    background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;" >
+
+    </body>
+
+    <div class="row">
+        <div class="left-column"><div class="image-container"><img id="vehicle" src="img/Vehicles.svg" height="200" width="200"/></div></div>
+        <div class="right-column"><div class="image-container"><img id="build" src="img/Build.svg" height="200" width="200"/></div></div>
+        <div class="center-column"><div class="image-container"><img id="history" src="img/History.svg" height="200" width="200"/></div></div>
+    </div>
+
+    <div class="row">
+        <div class="left-column"><div class="image-container"><img id="repair" src="img/Repair.svg" height="200" width="200"/></div></div>
+        <div class="right-column"><div class="image-container"><img id="electricity" src="img/Electricity.svg" height="200" width="200"/></div></div>
+        <div class="center-column"><div class="image-container"><img id="wild" src="img/Wildlife.svg" height="200" width="200"/></div></div>
+    </div>
+
+    <div class="row">
+        <div class="left-column"><div class="image-container"><img id="search" src="img/Search Landscape.svg" height="200" width="200"/></div></div>
+        <div class="right-column"><div class="image-container"><img id="camp" src="img/Camp.svg" height="200" width="200"/></div></div>
+        <div class="center-column"><div class="image-container"><img id="vegetation" src="img/Vegetation.svg" height="200" width="200"/></div></div>
+    </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.2/buzz.min.js"></script>
+        <script>
+            const sound1 = new buzz.sound ("audio/vehicles.wav")
+            const sound2 = new buzz.sound ("audio/build.wav")
+            const sound3 = new buzz.sound ("audio/repair.wav")
+            const sound4 = new buzz.sound ("audio/wildlife.wav")
+            const sound5 = new buzz.sound ("audio/searchlandscape.wav")
+            const sound6 = new buzz.sound ("audio/history.wav")
+            const sound7 = new buzz.sound ("audio/vegetation.wav")
+            const sound8 = new buzz.sound ("audio/electricity.wav")
+            const sound9 = new buzz.sound ("audio/camp.wav")
+            const vehicle = document.getElementById ("vehicle")
+            const build = document.getElementById ("build")
+            const repair = document.getElementById ("repair")
+            const wild = document.getElementById ("wild")
+            const search = document.getElementById ("search")
+            const history = document.getElementById ("history")
+            const vegetation = document.getElementById ("vegetation")
+            const electricity = document.getElementById ("electricity")
+            const camp = document.getElementById ("camp")
+
+        
+            vehicle.onpointerdown = () => {
+                sound1.play ()
+            }
+            vehicle.onmouseover = () => {
+                vehicle.src= "img/Vehicles2.svg" 
+            }
+            vehicle.onmouseout = () => {
+                vehicle.src= "img/Vehicles.svg" 
+            }
+
+            build.onpointerdown = () => {
+                sound2.play ()
+            }
+            build.onmouseover = () => {
+                build.src= "img/Build2.svg" 
+            }
+            build.onmouseout = () => {
+                build.src= "img/Build.svg" 
+            }
+
+            repair.onpointerdown = () => {
+                sound3.play ()
+            }
+            repair.onmouseover = () => {
+                repair.src= "img/Repair2.svg" 
+            }
+            repair.onmouseout = () => {
+                repair.src= "img/Repair.svg" 
+            }
+
+            wild.onpointerdown = () => {
+                sound4.play ()
+            }
+            wild.onmouseover = () => {
+                wild.src= "img/Wildlife2.svg" 
+            }
+            wild.onmouseout = () => {
+                wild.src= "img/Wildlife.svg" 
+            }
+
+            search.onpointerdown = () => {
+                sound5.play ()
+            }
+            search.onmouseover = () => {
+                search.src= "img/Search Landscape2.svg" 
+            }
+            search.onmouseout = () => {
+                search.src= "img/Search Landscape.svg" 
+            }
+    
+            history.onpointerdown = () => {
+                sound6.play ()
+            }
+            history.onmouseover = () => {
+                history.src= "img/History2.svg" 
+            }
+            history.onmouseout = () => {
+                history.src= "img/History.svg" 
+            }
+
+            vegetation.onpointerdown = () => {
+                sound7.play ()
+            }
+            vegetation.onmouseover = () => {
+                vegetation.src= "img/Vegetation2.svg" 
+            }
+            vegetation.onmouseout = () => {
+                vegetation.src= "img/Vegetation.svg" 
+            }
+
+            electricity.onpointerdown = () => {
+                sound8.play ()
+            }
+            electricity.onmouseover = () => {
+                electricity.src= "img/Electricity2.svg" 
+            }
+            electricity.onmouseout = () => {
+                electricity.src= "img/Electricity.svg" 
+            }
+
+            camp.onpointerdown = () => {
+                sound9.play ()
+            }
+            camp.onmouseover = () => {
+                camp.src= "img/Camp2.svg" 
+            }
+            camp.onmouseout = () => {
+                camp.src= "img/Camp.svg" 
+            }
+           
+            
+            
+            document.getElementByI
+        </script>
+    
+
+    </body>
+
+</html>
