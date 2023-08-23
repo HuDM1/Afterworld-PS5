@@ -4,4 +4,4 @@ huon pisoni
 
 i like code
 
-lease enjoy my website 🫡
+please enjoy my website 🫡
