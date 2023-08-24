@@ -167,6 +167,11 @@
             camp.onmouseout = () => {
                 camp.src= "img/Camp.svg" 
             }
+            document.body.onpointerdown = () => {
+    if (buzz.audioCtx.state != `running`) {
+        buzz.audioCtx.resume ()
+    }
+}
            
         </script>
     
